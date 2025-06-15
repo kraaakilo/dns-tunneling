@@ -2,6 +2,10 @@
 
 a proof of concept for exfiltrating files over dns using a custom client and server. the client encodes and transmits file content via dns queries, while the server decodes and reconstructs the files.
 
+![DNS Tunneling Explained](https://www.akamai.com/site/en/images/article/2023/what-is-dns-tunneling.png)
+
+**Figure**: Diagram explaining [DNS Tunneling](https://www.akamai.com/glossary/what-is-dns-tunneling) – a method of bypassing network restrictions by encapsulating data within DNS queries and responses.
+
 > **tested on linux; some features are currently linux-specific. cross-platform support and a better client build process are in progress.**
 
 ## features
