@@ -1,4 +1,4 @@
-# dns-tunneling-poc
+# dns-tunneling
 
 a proof of concept for exfiltrating files over dns using a custom client and server. the client encodes and transmits file content via dns queries, while the server decodes and reconstructs the files.
 
